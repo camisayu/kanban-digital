@@ -12,7 +12,7 @@ function cadastrar(){
     };
 
     const cardHTML = gerar_card(tarefa);
-    const tarefasContainer = document.querySelector('#tarefas');
+    const tarefasContainer = document.querySelector('#backlog');
     const cardElement = criarCardElement(cardHTML);
 
     tarefasContainer.appendChild(cardElement);
